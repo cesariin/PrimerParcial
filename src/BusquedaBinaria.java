@@ -20,11 +20,11 @@ public class BusquedaBinaria {
             int medio = inicio + (fin - inicio) / 2;
 
             if (array[medio] == valor) {
-                return medio; // Elemento encontrado
+                return medio; 
             } else if (array[medio] < valor) {
-                inicio = medio + 1; // El valor está en la mitad derecha del array
+                inicio = medio + 1;
             } else {
-                fin = medio - 1; // El valor está en la mitad izquierda del array
+                fin = medio - 1;
             }
         }
 
